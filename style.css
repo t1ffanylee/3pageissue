@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  object-fit: fill;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: #EFEBE9;
+  opacity: 0.8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: Roboto, sans-serif;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #212121;
+  text-align: right;
+  padding: 18px 40px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #7A7A7A;
+  color: white;
+}
+
+.active {
+  background-color: #EC407A;
+}
+
+/* figure {
+  padding: 0;
+  margin: 0;
+} */
+
+figcaption {
+  position: relative;
+  top: -40px;
+  color: white;
+  font-family: Roboto, sans-serif;
+  text-align: right;
+  padding: 10px;
+}
+
+.homeheader{
+  text-align: center;
+  font-size: 32pt;
+  font-family: Roboto, sans-serif;
+  padding: 40px 20px 20px 10px;
+}
+
+.txtimg {
+  height: 600px;
+  padding: 50px;
+  margin-left: 100px;
+}
+
+
+.angelheader {
+  text-align: center;
+  font-size: 3em;
+  padding: 110px 0 50px;
+  color: #7BC0E2;
+}
+
+.angels {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+  margin: 10px;
+}
+
+.angel_name {
+  text-align: center;
+  color: #747576;
+}
